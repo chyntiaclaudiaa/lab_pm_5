@@ -1,16 +1,57 @@
-# anime_verse
+# Anime Verse 🌌
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter untuk menjelajahi informasi anime, melihat detail karakter, dan menyimpan daftar favorit.
 
-## Getting Started
+## 👤 Identitas Mahasiswa
 
-This project is a starting point for a Flutter application.
+| Atribut | Keterangan |
+| :--- | :--- |
+| **Nama** | Chyntia Claudia |
+| **NIM** | 231401006 |
+| **LAB** | Lab PM 5 |
+| **Asisten Lab** | Rivaldo Pardede |
 
-A few resources to get you started if this is your first Flutter project:
+## 📝 Deskripsi Proyek
+**Anime Verse** adalah aplikasi yang memungkinkan pengguna untuk mencari dan melihat detail informasi anime menggunakan **Jikan API** (MyAnimeList). Aplikasi ini terintegrasi dengan **Firebase** untuk fitur autentikasi dan penyimpanan data favorit secara *real-time*.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Fitur Utama:**
+* **Authentication:** Login & Register menggunakan Email/Password dan Google Sign-In (Firebase Auth).
+* **Anime Discovery:** Menampilkan daftar Top Anime dan Upcoming Anime.
+* **Search:** Fitur pencarian anime berdasarkan judul.
+* **Detail Info:** Menampilkan sinopsis, rating, genre, dan daftar karakter.
+* **Favorites:** Menyimpan anime kesukaan ke dalam daftar favorit (Firestore Database).
+* **Profile:** Halaman profil pengguna dengan fitur logout.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Link Demo Aplikasi
+Berikut adalah video demonstrasi penggunaan aplikasi Anime Verse:
+
+👉 **[TONTON VIDEO DEMO DI SINI](https://youtu.be/D5U_rU1Kqw4)**
+
+## 📸 Screenshots Aplikasi
+
+Berikut adalah tampilan antarmuka aplikasi:
+
+| Login Page | Register Page |
+| :---: | :---: |
+| <img src="screenshots/signin_screen.png" width="250" /> | <img src="screenshots/signup_screen.png" width="250" /> |
+
+| Home Page | Detail Page |
+| :---: | :---: |
+| <img src="screenshots/home_screen.png" width="250" /> | <img src="screenshots/detail_screen.png" width="250" /> |
+
+| Favorite Page | Profile Page |
+| :---: | :---: |
+| <img src="screenshots/favorite_screen.png" width="250" /> | <img src="screenshots/profile_screen.png" width="250" /> |
+
+## 🛠️ Teknologi yang Digunakan
+* **Framework:** Flutter (Dart)
+* **Backend:** Firebase (Auth, Firestore)
+* **API Public:** Jikan API v4
+* **State Management:** Provider / setState
+* **CI/CD:** GitHub Actions (Automated Build APK)
+
+## 📦 Cara Instalasi (Download APK)
+1.  Masuk ke menu **[Releases](https://github.com/chyntiaclaudiaa/lab_pm_5/releases)** di repository ini.
+2.  Pilih versi terbaru (misal `v1.0.0`).
+3.  Klik pada **Assets** lalu download file `app-release.apk`.
+4.  Instal file APK tersebut di perangkat Android kamu.
